@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Digital - Gia Valdés</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <button id="themeToggle" class="btn btn-outline-light me-2">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a class="navbar-brand" href="#home">Gia Valdés</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre Mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portafolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección Principal -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="display-4">Gia Valdés</h1>
+                <p class="lead">Desarrolladora Web & Diseñadora Digital</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>5+</h3>
+                        <p>Proyectos Completados</p>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-award"></i>
+                        <h3>3+</h3>
+                        <p>Años de Experiencia</p>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-users"></i>
+                        <h3>100+</h3>
+                        <p>Clientes Satisfechos</p>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary btn-lg">Ver Portafolio</a>
+                    <a href="#contact" class="btn btn-outline-light btn-lg">Contactar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mi -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">Sobre Mi</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="section-content">
+                        Soy Gia Valdés, desarrolladora web con pasión por el mundo prehistórico. 
+                        Combino mi amor por la tecnología con mi fascinación por los dinosaurios 
+                        para crear experiencias digitales únicas y memorables.
+                    </p>
+                    <div class="skills">
+                        <h3>Habilidades</h3>
+                        <div class="skill-bar">
+                            <span class="skill-label">HTML/CSS</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-label">JavaScript</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="prehistoric-timeline">
+                        <div class="timeline-item">
+                            <h4>Triásico</h4>
+                            <p>Comienzo de mi viaje en el desarrollo web</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Jurásico</h4>
+                            <p>Desarrollo de proyectos prehistóricos</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Cretácico</h4>
+                            <p>Experiencias avanzadas en diseño digital</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portafolio -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1558981852-426c6c22a060" alt="Explorador Dino">
+                        <div class="portfolio-overlay">
+                            <h3>Explorador Dino</h3>
+                            <p>Aplicación web interactiva para explorar dinosaurios</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <h4>Explorador Dino</h4>
+                        <p class="project-type">Aplicación Web</p>
+                        <div class="technologies">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline-primary btn-sm">Ver Proyecto</a>
+                            <a href="#" class="btn btn-outline-primary btn-sm">Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1558981852-426c6c22a060" alt="Dino Quiz">
+                        <div class="portfolio-overlay">
+                            <h3>Dino Quiz</h3>
+                            <p>Juego educativo sobre dinosaurios</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <h4>Dino Quiz</h4>
+                        <p class="project-type">Aplicación Móvil</p>
+                        <div class="technologies">
+                            <span>React Native</span>
+                            <span>Expo</span>
+                            <span>Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline-primary btn-sm">Descargar</a>
+                            <a href="#" class="btn btn-outline-primary btn-sm">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438" alt="Paleo Blog">
+                        <div class="portfolio-overlay">
+                            <h3>Paleo Blog</h3>
+                            <p>Sitio web educativo sobre paleontología</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <h4>Paleo Blog</h4>
+                        <p class="project-type">Sitio Web</p>
+                        <div class="technologies">
+                            <span>WordPress</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline-primary btn-sm">Visitar</a>
+                            <a href="#" class="btn btn-outline-primary btn-sm">Admin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Mi Cronología</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Desarrolladora Junior</h4>
+                    <p>Empresa Tecnológica</p>
+                    <p class="period">2022 - Presente</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Estudiante de Tecnología</h4>
+                    <p>Universidad</p>
+                    <p class="period">2020 - 2022</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Enthusiast Dino</h4>
+                    <p>Exploradora del Jurásico</p>
+                    <p class="period">2018 - Presente</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <form id="contactForm" class="contact-form">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control" placeholder="Nombre" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <input type="email" class="form-control" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="5" placeholder="Mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-content">
+                <h3>¡Gracias por visitar mi portafolio!</h3>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="footer-dino">
+                    <div class="dino-track">
+                        <i class="fas fa-dragon"></i>
+                        <i class="fas fa-dragon"></i>
+                        <i class="fas fa-dragon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
